@@ -42,9 +42,9 @@ You need the following to start working on the project on your local computer:
 * Create a virtual environment and access the folder via your virtual environment
 * Visit https://newsapi.org/ and register for an API key.
 
-* Run ```$ export FLASK_APP=run.py
-``` follwoed by 
-``` $ flask run``` while in the project folder to start the project.
+* Run```$ export FLASK_APP=run.py
+```follwoed by 
+```$ flask run``` while in the project folder to start the project.
 * Once started, the project can be accessed on your localhost using the address: ```http://127.0.0.1:5000/```.
 
 ## Technologies Used
