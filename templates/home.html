@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="icon" href="{{url_for('static', filename='img/logo.png')}}">
+    <!-- <link rel="icon" href="{{url_for('static', filename='img/logo.png')}}"> -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>{% block title %}{% endblock %}</title>
 </head>
@@ -21,7 +21,7 @@
         </ul>
     </nav>
 <section id="main">
-    <div class="banner"><img src="https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/98BB/production/_97599093_breaking_news.png">
+    <div class="banner"><img src="https://ichef.bbci.co.uk/news/1024/branded_news/83B3/production/_115651733_breaking-large-promo-nc.png">
     </div>
     <div class = "head">TODAY'S TOP HEADLINES</div>
     {% for title,desc,img,p_date,url in contents %}
